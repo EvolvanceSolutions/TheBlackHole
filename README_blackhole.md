@@ -73,12 +73,4 @@ IDLE_THRESHOLD_SEC  = 60    # Seconds of no input before "resting" starts
 RENDER_INTERVAL_SEC = 2     # Redraw rate
 ```
 
-## How to turn this into a sellable SaaS
-
-- Electron/Tauri desktop app — ships its own permission prompts cleanly,
-  no terminal/pynput quirks across OSes
-- Cloud sync of work/rest history → analytics dashboard
-- Team leaderboard ("who worked most nonstop this week")
-- Slack bot integration: DMs your team when your hole hits critical mass
-- Pricing: $4/mo individual, $8/seat team
 
